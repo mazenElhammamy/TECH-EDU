@@ -1,0 +1,163 @@
+/* Colors Used: #E8E8E8 - #F05454 - #30475E - #222831 */
+/* General Styles & Utilities */
+html,
+body {
+	color: #222831;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+}
+.border-5 {
+	border-width: 5px !important;
+}
+
+.mt-6 {
+	margin-top: 6rem;
+}
+
+.mt-8 {
+	margin-top: 8rem;
+}
+
+.text-brand-primary {
+	color: #f05454;
+}
+
+.text-brand-secondary {
+	color: #30475e;
+}
+
+.bg-dark {
+	background-color: #222831 !important;
+	color: #e8e8e8 !important;
+}
+
+.bg-primary {
+	background-color: #f05454 !important;
+	color: #e8e8e8 !important;
+}
+
+.bg-secondary {
+	background-color: #e8e8e8 !important;
+	color: #222831 !important;
+}
+
+.btn-dark {
+	background-color: #30475e !important;
+}
+
+.bottom-border {
+	width: 10rem;
+	height: 5px;
+}
+
+.bottom-border-primary {
+	background-color: #f05454;
+}
+
+.bottom-border-seconadry {
+	background-color: #30475e;
+}
+
+/* Navbar */
+.navbar {
+	border-bottom: 3px solid #f05454;
+	opacity: 0.9;
+}
+
+.navbar .nav-item a:hover {
+	color: #f05454 !important;
+}
+
+
+/* Showcase Section */
+#showcase {
+	background: url('./img/showcase.jpg') no-repeat center center/cover fixed;
+	min-height: 100vh;
+	color: #e8e8e8;
+}
+
+#showcase .dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#showcase .showcase-inner {
+	padding-top: 200px;
+}
+
+/* Project Categories Section */
+#project-categories {
+	background: url('./img/Projects_bg.jpg') no-repeat center center/cover fixed;
+	color: #e8e8e8;
+}
+
+#project-categories .card-body,
+#project-categories-home .card-body {
+	border-top: 3px solid #f05454;
+}
+
+/* Follow Us Section */
+#follow-us a {
+	color: #e8e8e8;
+}
+
+#follow-us a:hover {
+	color: #30475e;
+}
+
+/* UserHome TeamWork */
+.team-work img {
+	width: 100%;
+}
+
+/* Footer */
+#footer a {
+	color: #30475e;
+	text-decoration: none;
+}
+
+#footer a:hover i {
+	color: #f05454;
+}
+.avatar-xl img {
+	width: 140px;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+#user-social-links > a {
+	color: #e8e8e8;
+	cursor: pointer;
+}
+
+#user-social-links > a:hover {
+	color: #f05454;
+}
+
+#profile-view-github > a {
+	color: #e8e8e8;
+}
+
+#profile-view-github > a:hover {
+	color: #30475e;
+}
+
+#owner-Profile-btn a:hover {
+	background-color: #222831 !important;
+}
+/* Responsive Style for mobile devices & tablets */
+@media (max-width: 768px) {
+	.navbar .form-inline {
+		margin-top: 1rem;
+	}
+}
